@@ -34,7 +34,7 @@ namespace fs = std::filesystem;
 
 /** Holds disambiguation patterns in titles for languages we support. */
 std::map<std::string, std::string> disambig = {
-    {"hu", "\\(egyértelműsítő lap\\)$"}, {"en", "\\(disambiguation\\)$"}, {"fr", "\\(homonymie\\)$"}, {"pt", "\\(desambiguação\\)$"}, {"it", "\\(disambigua\\)$"}, {"de", "\\(Begriffsklärung\\)$"}, {"es", "\\(desambiguación\\)$"}
+    {"hu", "\\(egyértelműsítő lap\\)$"}, {"en", "\\(disambiguation\\)$"}, {"fr", "\\(homonymie\\)$"}, {"pt", "\\(desambiguação\\)$"}, {"it", "\\(disambigua\\)$"}, {"de", "\\(Begriffsklärung\\)$"}, {"pl", "\\(ujednoznacznienie\\)$"}, {"es", "\\(desambiguación\\)$"}
 };
 
 /** A join function similar to what Python has. */
